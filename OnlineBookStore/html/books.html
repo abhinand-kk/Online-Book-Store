@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books | Book Haven</title>
+
+    <link rel="stylesheet" href="/css/books.css"></head>
+
+<body class="books-page">
+
+    <table class="navbar">
+
+        <tr>
+
+            <td class="brand" width="70%">
+                <img src="/assets/images/header_logo-removebg-preview.png" class="logo-img">
+
+                <div>
+                    <h1 class="logo-text">Book Haven</h1>
+                    <p class="tagline">Your Online Bookstore</p>
+                </div>
+            </td>
+
+            <td class="menu">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="books.html">Books</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <h1 class="heading">Featured Books</h1>
+
+    <table class="book-table">
+
+        <tr>
+
+            <td class="book-card">
+                <img src="/assets/images/Atomic Habits.jpg" class="book-image">
+                <h3 class="book-title">Atomic Habits</h3>
+                <p class="author">James Clear</p>
+                <p class="price">₹499</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The alchemist.jpg" class="book-image">
+                <h3 class="book-title">The Alchemist</h3>
+                <p class="author">Paulo Coelho</p>
+                <p class="price">₹350</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The 5 am club.jpg" class="book-image">
+                <h3 class="book-title">The 5 AM Club</h3>
+                <p class="author">Robin Sharma</p>
+                <p class="price">₹450</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Rich dad poor dad.jpg" class="book-image">
+                <h3 class="book-title">Rich Dad Poor Dad</h3>
+                <p class="author">Robert Kiyosaki</p>
+                <p class="price">₹399</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The psychology of money.jpg" class="book-image">
+                <h3 class="book-title">The Psychology of Money</h3>
+                <p class="author">Morgan Housel</p>
+                <p class="price">₹499</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Deep work.jpg" class="book-image">
+                <h3 class="book-title">Deep Work</h3>
+                <p class="author">Cal Newport</p>
+                <p class="price">₹450</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="book-card">
+                <img src="/assets/images/Think and grow rich.jpg" class="book-image">
+                <h3 class="book-title">Think and Grow Rich</h3>
+                <p class="author">Napoleon Hill</p>
+                <p class="price">₹275</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The power of subconscious mind.jpg" class="book-image">
+                <h3 class="book-title">The Power of Subconscious Mind</h3>
+                <p class="author">Joseph Murphy</p>
+                <p class="price">₹299</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Ikigai.jpg" class="book-image">
+                <h3 class="book-title">Ikigai</h3>
+                <p class="author">Hector Garcia</p>
+                <p class="price">₹350</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Sapiens.jpg" class="book-image">
+                <h3 class="book-title">Sapiens</h3>
+                <p class="author">Yuval Noah Harari</p>
+                <p class="price">₹299</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The intelligent investor.jpg" class="book-image">
+                <h3 class="book-title">The Intelligent Investor</h3>
+                <p class="author">Benjamin Graham</p>
+                <p class="price">₹799</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Zero_to_One.jpg" class="book-image">
+                <h3 class="book-title">Zero to One</h3>
+                <p class="author">Peter Thiel</p>
+                <p class="price">₹450</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="book-card">
+                <img src="/assets/images/The Monk Who Sold His Ferrari.jpg" class="book-image">
+                <h3 class="book-title">The Monk Who Sold His Ferrari</h3>
+                <p class="author">Robin Sharma</p>
+                <p class="price">₹299</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Wings of Fire.jpg" class="book-image">
+                <h3 class="book-title">Wings of Fire</h3>
+                <p class="author">A. P. J. Abdul Kalam</p>
+                <p class="price">₹399</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/The Secret.jpg" class="book-image">
+                <h3 class="book-title">The Secret</h3>
+                <p class="author">Rhonda Byrne</p>
+                <p class="price">₹499</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Do Epic Shit.jpg" class="book-image">
+                <h3 class="book-title">Do Epic Shit</h3>
+                <p class="author">Ankur Warikoo</p>
+                <p class="price">₹399</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Can't Hurt Me.jpg" class="book-image">
+                <h3 class="book-title">Can't Hurt Me</h3>
+                <p class="author">David Goggins</p>
+                <p class="price">₹699</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+            <td class="book-card">
+                <img src="/assets/images/Harry Potter and the Philosopher's Stone.jpg" class="book-image">
+                <h3 class="book-title">Harry Potter and the Philosopher's Stone</h3>
+                <p class="author">J. K. Rowling</p>
+                <p class="price">₹599</p>
+                <button class="cart-btn" onclick="addCart()">Add to Cart</button>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <script src="/js/books.js"></script>
+
+</body>
+
+</html>
